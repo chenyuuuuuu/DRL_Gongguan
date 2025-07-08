@@ -7,6 +7,7 @@ Taffic demand, network, and environment for systematic experiments.
 
 ## 📂 Project Structure
 
+```plaintext
 cfg/                # SUMO configuration files
 demand/             # Traffic demand definitions
 net/                # Network files
