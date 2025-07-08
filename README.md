@@ -10,9 +10,6 @@ The objective of this project is to develop and evaluate DRL-based controllers, 
 
 Below is the real-world **Gongguan Roundabout** in Taipei, Taiwan, and its corresponding SUMO simulation environment used for DRL training and evaluation:
 
-### Real Gongguan Roundabout
-![Roundabout](https://github.com/chenyuuuuuu/DRL_Gongguan/blob/main/figures/Roundabout.png?raw=true)
-
 ### SUMO Simulation View
 ![Sumo_roundabout](https://github.com/chenyuuuuuu/DRL_Gongguan/blob/main/figures/Sumo_roundabout.png?raw=true)
 
