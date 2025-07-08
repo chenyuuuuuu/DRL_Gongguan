@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- updated on 2025-07-01 for accident rerouting support -->
+
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../net/gongguan_fixed_signal_blocking_cleaned.net.xml"/>
+        <route-files value="C:\Users\gr0664rx\RLProjects\GongguanRoundabout\cfg\random_flow_0b6c9344.rou.xml"/>
+        <!-- <route-files value="../demand/gongguan_circular_flows_new.rou.xml"/> -->
+        <!-- <additional-files value="../net/osm.poly.xml"/> -->
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+        <time-to-teleport value="-1"/>        <!-- 永不自動 teleport，避免資料遺失 -->
+        <max-depart-delay value="-1"/>        <!-- 無限期等待可出發 -->
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <tls.actuated.jam-threshold value="30"/>
+    </processing>
+
+    <routing>
+        <!-- === 新增 rerouting 支援 === -->
+        <device.rerouting.probability value="1.0"/>             <!-- 所有車輛安裝 rerouting device -->
+        <device.rerouting.adaptation-interval value="30"/>      <!-- 每 30 秒重新計算路線 -->
+        <device.rerouting.adaptation-steps value="18"/>         <!-- 在 reroute 後 18 步內平滑速度修正 -->
+        <device.rerouting.period value="30"/>                   <!-- 每 30 秒強制執行 reroute -->
+        <device.rerouting.pre-period value="0"/>                <!-- 立刻啟動 reroute -->
+        <device.rerouting.with-taz value="false"/>              <!-- 關閉 TAZ 模式 -->
+        <device.rerouting.threads value="1"/>                   <!-- 單執行緒 reroute，穩定即可 -->
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</sumoConfiguration>

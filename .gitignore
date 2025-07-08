@@ -1,0 +1,16 @@
+__pycache__/ 
+.ipynb_checkpoints/ 
+.virtual_documents/ 
+tensorboard/ 
+trained_model/ 
+*.log 
+*.pkl 
+*.zip 
+*.h5 
+output/ 
+results/ 
+venv/ 
+env/ 
+.vscode/ 
+.idea/ 
+.DS_Store 

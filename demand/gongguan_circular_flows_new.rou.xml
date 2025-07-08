@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes>
+
+  
+  <vType id="car" vClass="passenger" accel="2.6" decel="4.5" sigma="0.5" length="5.0" maxSpeed="13.9" />
+  <vType id="motorcycle" vClass="motorcycle" accel="3.0" decel="5.0" sigma="0.5" length="2.0" maxSpeed="14.0" />
+  <vType id="truck" vClass="truck" accel="1.2" decel="3.5" sigma="0.5" length="12.0" maxSpeed="10.0" />
+
+  
+  
+  
+  
+  <flow id="car_222682_L" type="car" begin="0" end="3600" probability="0.0432" departLane="best" departSpeed="max" from="222682222#1" to="28231434" />
+  <flow id="car_222682_S" type="car" begin="0" end="3600" probability="0.0360" departLane="best" departSpeed="max" from="222682222#1" to="23241821#0" />
+  <flow id="car_222682_R" type="car" begin="0" end="3600" probability="0.0288" departLane="best" departSpeed="max" from="222682222#1" to="193253427#0" />
+  
+  <flow id="moto_222682_L" type="motorcycle" begin="0" end="3600" probability="0.0720" departLane="best" departSpeed="max" from="222682222#1" to="28231434" />
+  <flow id="moto_222682_S" type="motorcycle" begin="0" end="3600" probability="0.0576" departLane="best" departSpeed="max" from="222682222#1" to="23241821#0" />
+  <flow id="moto_222682_R" type="motorcycle" begin="0" end="3600" probability="0.0432" departLane="best" departSpeed="max" from="222682222#1" to="193253427#0" />
+
+  
+  
+  
+  
+  <flow id="car_342415_L" type="car" begin="0" end="3600" probability="0.0150" departLane="best" departSpeed="max" from="34241530#0" to="198876043#0" />
+  <flow id="car_342415_S" type="car" begin="0" end="3600" probability="0.0114" departLane="best" departSpeed="max" from="34241530#0" to="23241821#0" />
+  <flow id="car_342415_R" type="car" begin="0" end="3600" probability="0.0114" departLane="best" departSpeed="max" from="34241530#0" to="-193253435" />
+  
+  <flow id="moto_342415_L" type="motorcycle" begin="0" end="3600" probability="0.0227" departLane="best" departSpeed="max" from="34241530#0" to="198876043#0" />
+  <flow id="moto_342415_S" type="motorcycle" begin="0" end="3600" probability="0.0170" departLane="best" departSpeed="max" from="34241530#0" to="23241821#0" />
+  <flow id="moto_342415_R" type="motorcycle" begin="0" end="3600" probability="0.0170" departLane="best" departSpeed="max" from="34241530#0" to="-193253435" />
+
+  
+  
+  
+  
+  <flow id="car_198876045_L" type="car" begin="0" end="3600" probability="0.0150" departLane="best" departSpeed="max" from="198876045#1" to="23241821#0" />
+  <flow id="car_198876045_S" type="car" begin="0" end="3600" probability="0.0114" departLane="best" departSpeed="max" from="198876045#1" to="193253427#0" />
+  <flow id="car_198876045_R" type="car" begin="0" end="3600" probability="0.0114" departLane="best" departSpeed="max" from="198876045#1" to="198876043#0" />
+  
+  <flow id="moto_198876045_L" type="motorcycle" begin="0" end="3600" probability="0.0227" departLane="best" departSpeed="max" from="198876045#1" to="23241821#0" />
+  <flow id="moto_198876045_S" type="motorcycle" begin="0" end="3600" probability="0.0170" departLane="best" departSpeed="max" from="198876045#1" to="193253427#0" />
+  <flow id="moto_198876045_R" type="motorcycle" begin="0" end="3600" probability="0.0170" departLane="best" departSpeed="max" from="198876045#1" to="198876043#0" />
+
+  
+  
+  
+  
+  <flow id="car_193253433_L" type="car" begin="0" end="3600" probability="0.0150" departLane="best" departSpeed="max" from="193253433#2" to="-193253435" />
+  <flow id="car_193253433_S" type="car" begin="0" end="3600" probability="0.0114" departLane="best" departSpeed="max" from="193253433#2" to="198876043#0" />
+  <flow id="car_193253433_R" type="car" begin="0" end="3600" probability="0.0114" departLane="best" departSpeed="max" from="193253433#2" to="23241821#0" />
+  
+  <flow id="moto_193253433_L" type="motorcycle" begin="0" end="3600" probability="0.0227" departLane="best" departSpeed="max" from="193253433#2" to="-193253435" />
+  <flow id="moto_193253433_S" type="motorcycle" begin="0" end="3600" probability="0.0170" departLane="best" departSpeed="max" from="193253433#2" to="198876043#0" />
+  <flow id="moto_193253433_R" type="motorcycle" begin="0" end="3600" probability="0.0170" departLane="best" departSpeed="max" from="193253433#2" to="23241821#0" />
+
+  
+  
+  
+  
+  <flow id="car_-55029244_L" type="car" begin="0" end="3600" probability="0.0072" departLane="best" departSpeed="max" from="-55029244#0" to="193253427#0" />
+  <flow id="car_-55029244_S" type="car" begin="0" end="3600" probability="0.0058" departLane="best" departSpeed="max" from="-55029244#0" to="28231434" />
+  <flow id="car_-55029244_R" type="car" begin="0" end="3600" probability="0.0043" departLane="best" departSpeed="max" from="-55029244#0" to="198876043#0" />
+  
+  <flow id="moto_-55029244_L" type="motorcycle" begin="0" end="3600" probability="0.0116" departLane="best" departSpeed="max" from="-55029244#0" to="193253427#0" />
+  <flow id="moto_-55029244_S" type="motorcycle" begin="0" end="3600" probability="0.0088" departLane="best" departSpeed="max" from="-55029244#0" to="28231434" />
+  <flow id="moto_-55029244_R" type="motorcycle" begin="0" end="3600" probability="0.0088" departLane="best" departSpeed="max" from="-55029244#0" to="198876043#0" />
+
+  
+  
+  
+  
+  <flow id="car_-28231434_L" type="car" begin="0" end="3600" probability="0.0072" departLane="best" departSpeed="max" from="-28231434" to="198876042#0" />
+  <flow id="car_-28231434_S" type="car" begin="0" end="3600" probability="0.0058" departLane="best" departSpeed="max" from="-28231434" to="23241821#0" />
+  <flow id="car_-28231434_R" type="car" begin="0" end="3600" probability="0.0043" departLane="best" departSpeed="max" from="-28231434" to="-193253435" />
+  
+  <flow id="moto_-28231434_L" type="motorcycle" begin="0" end="3600" probability="0.0116" departLane="best" departSpeed="max" from="-28231434" to="198876042#0" />
+  <flow id="moto_-28231434_S" type="motorcycle" begin="0" end="3600" probability="0.0088" departLane="best" departSpeed="max" from="-28231434" to="23241821#0" />
+  <flow id="moto_-28231434_R" type="motorcycle" begin="0" end="3600" probability="0.0088" departLane="best" departSpeed="max" from="-28231434" to="-193253435" />
+
+  
+  
+  
+  <flow id="truck_low" type="truck" begin="0" end="3600" probability="0.0062" departLane="best" departSpeed="max" from="34241530#0" to="28231434" />
+
+</routes>

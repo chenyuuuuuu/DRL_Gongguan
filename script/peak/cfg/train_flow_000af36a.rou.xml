@@ -1,0 +1,67 @@
+<routes>
+<vType id="car" vClass="passenger" accel="2.6" decel="4.5" sigma="0.5" length="5.0" maxSpeed="13.9"/>
+<vType id="motorcycle" vClass="motorcycle" accel="3.0" decel="5.0" sigma="0.5" length="2.0" maxSpeed="14.0"/>
+<vType id="truck" vClass="truck" accel="1.2" decel="3.5" sigma="0.5" length="12.0" maxSpeed="10.0"/>
+
+  <flow id="car_222682222#1_193253427#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="58.22" departLane="best" departPos="random" departSpeed="0" from="222682222#1" to="193253427#0"/>
+  <flow id="car_222682222#1_198876043#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="51.72" departLane="best" departPos="random" departSpeed="0" from="222682222#1" to="198876043#0"/>
+  <flow id="car_222682222#1_28231434_000af36a" type="car" begin="0" end="3600" vehsPerHour="50.38" departLane="best" departPos="random" departSpeed="0" from="222682222#1" to="28231434"/>
+  <flow id="car_222682222#1_23241821#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="41.45" departLane="best" departPos="random" departSpeed="0" from="222682222#1" to="23241821#0"/>
+  <flow id="car_222682222#1_198876042#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="32.62" departLane="best" departPos="random" departSpeed="0" from="222682222#1" to="198876042#0"/>
+  <flow id="motorcycle_222682222#1_193253427#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="178.67" departLane="best" departPos="random" departSpeed="0" from="222682222#1" to="193253427#0"/>
+  <flow id="motorcycle_222682222#1_198876043#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="152.23" departLane="best" departPos="random" departSpeed="0" from="222682222#1" to="198876043#0"/>
+  <flow id="motorcycle_222682222#1_28231434_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="140.23" departLane="best" departPos="random" departSpeed="0" from="222682222#1" to="28231434"/>
+  <flow id="motorcycle_222682222#1_23241821#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="117.88" departLane="best" departPos="random" departSpeed="0" from="222682222#1" to="23241821#0"/>
+  <flow id="motorcycle_222682222#1_198876042#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="101.62" departLane="best" departPos="random" departSpeed="0" from="222682222#1" to="198876042#0"/>
+  <flow id="car_193253433#2_198876043#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="39.27" departLane="best" departPos="random" departSpeed="0" from="193253433#2" to="198876043#0"/>
+  <flow id="car_193253433#2_28231434_000af36a" type="car" begin="0" end="3600" vehsPerHour="33.14" departLane="best" departPos="random" departSpeed="0" from="193253433#2" to="28231434"/>
+  <flow id="car_193253433#2_23241821#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="32.71" departLane="best" departPos="random" departSpeed="0" from="193253433#2" to="23241821#0"/>
+  <flow id="car_193253433#2_198876042#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="26.17" departLane="best" departPos="random" departSpeed="0" from="193253433#2" to="198876042#0"/>
+  <flow id="car_193253433#2_193253427#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="24.30" departLane="best" departPos="random" departSpeed="0" from="193253433#2" to="193253427#0"/>
+  <flow id="motorcycle_193253433#2_198876043#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="113.77" departLane="best" departPos="random" departSpeed="0" from="193253433#2" to="198876043#0"/>
+  <flow id="motorcycle_193253433#2_28231434_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="98.37" departLane="best" departPos="random" departSpeed="0" from="193253433#2" to="28231434"/>
+  <flow id="motorcycle_193253433#2_23241821#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="95.83" departLane="best" departPos="random" departSpeed="0" from="193253433#2" to="23241821#0"/>
+  <flow id="motorcycle_193253433#2_198876042#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="77.38" departLane="best" departPos="random" departSpeed="0" from="193253433#2" to="198876042#0"/>
+  <flow id="motorcycle_193253433#2_193253427#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="70.73" departLane="best" departPos="random" departSpeed="0" from="193253433#2" to="193253427#0"/>
+  <flow id="car_198876045#1_28231434_000af36a" type="car" begin="0" end="3600" vehsPerHour="33.46" departLane="best" departPos="random" departSpeed="0" from="198876045#1" to="28231434"/>
+  <flow id="car_198876045#1_23241821#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="31.71" departLane="best" departPos="random" departSpeed="0" from="198876045#1" to="23241821#0"/>
+  <flow id="car_198876045#1_198876042#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="27.18" departLane="best" departPos="random" departSpeed="0" from="198876045#1" to="198876042#0"/>
+  <flow id="car_198876045#1_193253427#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="23.25" departLane="best" departPos="random" departSpeed="0" from="198876045#1" to="193253427#0"/>
+  <flow id="car_198876045#1_198876043#2_000af36a" type="car" begin="0" end="3600" vehsPerHour="20.66" departLane="best" departPos="random" departSpeed="0" from="198876045#1" to="198876043#2"/>
+  <flow id="motorcycle_198876045#1_28231434_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="103.15" departLane="best" departPos="random" departSpeed="0" from="198876045#1" to="28231434"/>
+  <flow id="motorcycle_198876045#1_23241821#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="88.49" departLane="best" departPos="random" departSpeed="0" from="198876045#1" to="23241821#0"/>
+  <flow id="motorcycle_198876045#1_198876042#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="77.87" departLane="best" departPos="random" departSpeed="0" from="198876045#1" to="198876042#0"/>
+  <flow id="motorcycle_198876045#1_193253427#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="72.65" departLane="best" departPos="random" departSpeed="0" from="198876045#1" to="193253427#0"/>
+  <flow id="motorcycle_198876045#1_198876043#2_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="66.15" departLane="best" departPos="random" departSpeed="0" from="198876045#1" to="198876043#2"/>
+  <flow id="car_-28231434_23241821#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="22.48" departLane="best" departPos="random" departSpeed="0" from="-28231434" to="23241821#0"/>
+  <flow id="car_-28231434_198876042#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="21.05" departLane="best" departPos="random" departSpeed="0" from="-28231434" to="198876042#0"/>
+  <flow id="car_-28231434_193253427#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="16.52" departLane="best" departPos="random" departSpeed="0" from="-28231434" to="193253427#0"/>
+  <flow id="car_-28231434_198876043#2_000af36a" type="car" begin="0" end="3600" vehsPerHour="17.65" departLane="best" departPos="random" departSpeed="0" from="-28231434" to="198876043#2"/>
+  <flow id="car_-28231434_28231434_000af36a" type="car" begin="0" end="3600" vehsPerHour="14.06" departLane="best" departPos="random" departSpeed="0" from="-28231434" to="28231434"/>
+  <flow id="motorcycle_-28231434_23241821#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="68.82" departLane="best" departPos="random" departSpeed="0" from="-28231434" to="23241821#0"/>
+  <flow id="motorcycle_-28231434_198876042#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="63.06" departLane="best" departPos="random" departSpeed="0" from="-28231434" to="198876042#0"/>
+  <flow id="motorcycle_-28231434_193253427#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="51.64" departLane="best" departPos="random" departSpeed="0" from="-28231434" to="193253427#0"/>
+  <flow id="motorcycle_-28231434_198876043#2_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="48.95" departLane="best" departPos="random" departSpeed="0" from="-28231434" to="198876043#2"/>
+  <flow id="motorcycle_-28231434_28231434_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="41.64" departLane="best" departPos="random" departSpeed="0" from="-28231434" to="28231434"/>
+  <flow id="car_-55029244#0_198876042#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="28.25" departLane="best" departPos="random" departSpeed="0" from="-55029244#0" to="198876042#0"/>
+  <flow id="car_-55029244#0_193253427#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="22.59" departLane="best" departPos="random" departSpeed="0" from="-55029244#0" to="193253427#0"/>
+  <flow id="car_-55029244#0_198876043#2_000af36a" type="car" begin="0" end="3600" vehsPerHour="19.62" departLane="best" departPos="random" departSpeed="0" from="-55029244#0" to="198876043#2"/>
+  <flow id="car_-55029244#0_28231434_000af36a" type="car" begin="0" end="3600" vehsPerHour="17.46" departLane="best" departPos="random" departSpeed="0" from="-55029244#0" to="28231434"/>
+  <flow id="car_-55029244#0_23241821#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="13.27" departLane="best" departPos="random" departSpeed="0" from="-55029244#0" to="23241821#0"/>
+  <flow id="motorcycle_-55029244#0_198876042#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="83.14" departLane="best" departPos="random" departSpeed="0" from="-55029244#0" to="198876042#0"/>
+  <flow id="motorcycle_-55029244#0_193253427#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="64.81" departLane="best" departPos="random" departSpeed="0" from="-55029244#0" to="193253427#0"/>
+  <flow id="motorcycle_-55029244#0_198876043#2_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="61.76" departLane="best" departPos="random" departSpeed="0" from="-55029244#0" to="198876043#2"/>
+  <flow id="motorcycle_-55029244#0_28231434_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="54.57" departLane="best" departPos="random" departSpeed="0" from="-55029244#0" to="28231434"/>
+  <flow id="motorcycle_-55029244#0_23241821#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="45.68" departLane="best" departPos="random" departSpeed="0" from="-55029244#0" to="23241821#0"/>
+  <flow id="car_34241530#0_198876042#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="27.72" departLane="best" departPos="random" departSpeed="0" from="34241530#0" to="198876042#0"/>
+  <flow id="car_34241530#0_193253427#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="23.93" departLane="best" departPos="random" departSpeed="0" from="34241530#0" to="193253427#0"/>
+  <flow id="car_34241530#0_198876043#2_000af36a" type="car" begin="0" end="3600" vehsPerHour="19.67" departLane="best" departPos="random" departSpeed="0" from="34241530#0" to="198876043#2"/>
+  <flow id="car_34241530#0_28231434_000af36a" type="car" begin="0" end="3600" vehsPerHour="16.61" departLane="best" departPos="random" departSpeed="0" from="34241530#0" to="28231434"/>
+  <flow id="car_34241530#0_23241821#0_000af36a" type="car" begin="0" end="3600" vehsPerHour="14.10" departLane="best" departPos="random" departSpeed="0" from="34241530#0" to="23241821#0"/>
+  <flow id="motorcycle_34241530#0_198876042#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="77.72" departLane="best" departPos="random" departSpeed="0" from="34241530#0" to="198876042#0"/>
+  <flow id="motorcycle_34241530#0_193253427#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="66.42" departLane="best" departPos="random" departSpeed="0" from="34241530#0" to="193253427#0"/>
+  <flow id="motorcycle_34241530#0_198876043#2_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="62.33" departLane="best" departPos="random" departSpeed="0" from="34241530#0" to="198876043#2"/>
+  <flow id="motorcycle_34241530#0_28231434_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="52.80" departLane="best" departPos="random" departSpeed="0" from="34241530#0" to="28231434"/>
+  <flow id="motorcycle_34241530#0_23241821#0_000af36a" type="motorcycle" begin="0" end="3600" vehsPerHour="46.38" departLane="best" departPos="random" departSpeed="0" from="34241530#0" to="23241821#0"/>
+  <flow id="truck_34241530#0_198876042#0_000af36a" type="truck" begin="0" end="3600" vehsPerHour="11.73" departLane="best" departPos="random" departSpeed="0" from="34241530#0" to="198876042#0"/>
+</routes>
