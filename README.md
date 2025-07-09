@@ -33,7 +33,7 @@ The following plots show the **training curves of RPPO and PPO under the Gonggua
 ### Average Travel Time
 ![avg_travel_time](https://github.com/chenyuuuuuu/DRL_Gongguan/blob/main/figures/avg_travel_time.png?raw=true)
 
-These metrics collectively demonstrate the learning progression and performance differences between RPPO and PPO during training in the roundabout traffic control task.
+All these metrics demonstrate the learning progression and performance differences between RPPO and PPO during training in the roundabout traffic control task.
 
 ---
 
